@@ -22,19 +22,6 @@ const TransactionTable = () => {
   }, [pageNumberState,sortOrder]);
 
 
-  // const handleSort = (key) => {
-  //   // setSortOrder(sortOrder === "asc" ? "desc" : "asc");
-  //   const sortedArray = arrayTransactionState.data.sort((a, b) => {
-  //     const aValue = a[key].toLowerCase();
-  //     const bValue = b[key].toLowerCase();
-  //     if (sortOrder === "asc") {
-  //       return aValue.localeCompare(bValue);
-  //     } else {
-  //       return bValue.localeCompare(aValue);
-  //     }
-  //   });
-  //   // setarrayTransactionState({ ...arrayTransactionState, data: sortedArray });
-  // };
  
 
   const handleFilter = (e) => {
