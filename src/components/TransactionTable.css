@@ -1,0 +1,126 @@
+*{
+  
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+
+table {
+  margin-left: 5%;
+  width: 1000px;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+table tr {
+  cursor: pointer;
+  text-align: center;
+}
+table tr:first-child {
+  color: rgb(255, 255, 255);
+  background-color: rgb(85, 65, 110);
+}
+table tr:nth-child(even) {
+  background-color: rgb(230, 230, 230);
+}
+table tr:hover:not(:first-child),
+.active {
+  color: rgb(219, 205, 205);
+  background-color: rgb(165, 75, 75);
+}
+table tr:hover td:nth-child(3),
+.active td:nth-child(3) {
+  background-color: rgb(120, 120, 10);
+ 
+}
+table tr td,
+th {
+  padding: 5px 0px;
+  color: black;
+}
+  
+  .aage {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+   
+   margin-left: 70px ;
+   margin-top: 15px;
+    
+   
+  
+  }
+  button:hover{
+    background-color: blueviolet;
+  }
+
+  .sort{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 60px;
+   
+   margin-top: 15px;
+  }
+
+  input[type=text] {
+    margin-left: 05px;
+    margin-top: 70px;
+    padding: 2px;
+    border-radius: 3px;
+    
+}
+label{
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: larger;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+.reset{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 2px 24px;
+  text-align: center;
+  font-size: large;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+body
+    {
+      background-size: cover;
+   background-image: url("https://coolbackgrounds.io/images/backgrounds/white/white-contour-c990a61f.svg");
+    }
+
+
+    .site-logo {
+      margin-left: 80px;
+      float: right;
+    }
+    .site-logo {
+      width: 10%;
+      height: auto;
+    }
+
+
+
+
+  
