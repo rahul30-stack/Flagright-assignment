@@ -92,9 +92,9 @@ const TransactionTable = () => {
         <tr key={element?.transactionId}>
           <td>{element?.transactionId}</td>
           <td>{element?.destinationUserId}</td>
-          <td>{element?. originUserId}</td>
-          <td>{element?. type}</td>
-          <td>{element?. status}</td>
+          <td>{element?.originUserId}</td>
+          <td>{element?.type}</td>
+          <td>{element?.status}</td>
 
         </tr>
         
