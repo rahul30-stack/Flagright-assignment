@@ -61,7 +61,7 @@ const TransactionTable = () => {
      </div>
       <label>Filter by Type:
         <input type="text" value={filterValue} onChange={handleFilter} /></label>
-        <button className="reset" onClick={handleReset}>Reset</button>
+        <button className="reset" onClick={handleReset}>Clear </button>
           <table>
     <thead>
       <tr>
