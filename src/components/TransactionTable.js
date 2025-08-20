@@ -64,6 +64,15 @@ const TransactionTable = () => {
         <button className="reset" onClick={handleReset}>Clear </button>
           <table>
     <thead>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6FGJGKGCMZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6FGJGKGCMZ');
+</script>
 
     
      <!-- Google Tag Manager -->
