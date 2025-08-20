@@ -65,13 +65,13 @@ const TransactionTable = () => {
           <table>
     <thead>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6FGJGKGCMZ"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E26CM5Q8YC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-6FGJGKGCMZ');
+  gtag('config', 'G-E26CM5Q8YC');
 </script>
 
     
