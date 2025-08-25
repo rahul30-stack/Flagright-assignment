@@ -64,6 +64,7 @@ const TransactionTable = () => {
         <button className="reset" onClick={handleReset}>Clear </button>
           <table>
     <thead>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E26CM5Q8YC"></script>
 <script>
@@ -73,7 +74,6 @@ const TransactionTable = () => {
 
   gtag('config', 'G-E26CM5Q8YC');
 </script>
-
     
       <tr>
         <th >Transaction id</th>
